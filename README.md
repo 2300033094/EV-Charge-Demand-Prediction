@@ -2,7 +2,7 @@
 This project predicts the electric vehicle (EV) charge demand using data analysis and machine learning techniques.
 ## Contents
 - `EV-Vehicle-Charge-Demand-Prediction.ipynb`: Main notebook with code and results.
-- `shell project dataset.csv`: Dataset used.
+- `Electric_Vehicle_Population_By_County.csv`: Dataset used.
 
 ## Tools Used
 - Python (Pandas, NumPy, Scikit-learn, etc.)
