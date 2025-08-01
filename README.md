@@ -41,7 +41,25 @@ Data export to .csv
 - Jupyter Notebook
 
 🚀 How to Run
-Clone the repo or open the notebook in Google Colab
+1. Clone the repo:
+  git clone https://github.com/2300033094/EV-Charge-Demand-Prediction.git
+  cd EV-Charge-Demand-Prediction
+2. Install Dependencies:
+  pip install -r requirements.txt
+3. Run the App:
+   streamlit run app.py
+Then open your browser and visit http://localhost:8501 (this link works only on your own machine after running the app).
+
+** How It Works**
+Uses historical EV registration data per county
+Extracts features like:
+Lag values
+Rolling averages
+Percent changes
+Growth trends (slope)
+Forecasts future EV totals using a regression model
+Visualizes the cumulative adoption trend for user-selected counties
+
 Install dependencies (e.g., pandas, matplotlib, joblib, sklearn/statsmodels)
 Run the notebook step-by-step
 The model and outputs will be generated in the working directory
