@@ -4,21 +4,21 @@ This project predicts the future demand for electric vehicle (EV) charging using
 ## 📁 Project Structure
 📦 EV-Charge-Demand-Prediction/
 
-├── EV_Vehicle_Charge_Demand_Prediction.ipynb   # Jupyter Notebook for data exploration and modeling
+  ├── EV_Vehicle_Charge_Demand_Prediction.ipynb   # Jupyter Notebook for data exploration and modeling
 
-├── app.py                                      # Streamlit web application
+  ├── app.py                                      # Streamlit web application
 
-├── requirements.txt                            # Required Python dependencies
+  ├── requirements.txt                            # Required Python dependencies
 
-├── Electric_Vehicle_Population_By_County.csv   # Raw dataset from Washington State
+  ├── Electric_Vehicle_Population_By_County.csv   # Raw dataset from Washington State
 
-├── preprocessed_ev_data.csv                    # Cleaned and feature-engineered dataset
+  ├── preprocessed_ev_data.csv                    # Cleaned and feature-engineered dataset
 
-├── forecasting_ev_model.pkl                    # Trained ML model for forecasting
+  ├── forecasting_ev_model.pkl                    # Trained ML model for forecasting
 
-└── ev image.png                                # Project cover image
+  └── ev image.png                                # Project cover image
 
-└── README.md  
+  └── README.md  
 
 📊 Dataset
 Source: Electric vehicle population by county
